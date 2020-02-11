@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GoChat</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section id="signup">
+            <h2>SignUp</h2>
+            <form id="signup-form">
+                <input id="signup-user" type="text" placeholder="username" />
+                <input id="signup-email" type="email" placeholder="email" />
+                <input id="signup-password" type="password" placeholder="password" />
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="signin" class="hidden">
+            <h2>SignIn</h2>
+            <form id="signin-form">
+                <input id="signin-email" type="email" placeholder="email" />
+                <input id="signin-password" type="password" placeholder="password" />
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="chat" class="hidden">
+            <h1>GoChat</h1>
+            <form id="chat-form">
+                <input id="chat-input" />
+                <button type="submit">Submit</button>
+            </form>
+            <ul class="messages"></ul>
+        </section>
+        <div id="snackbar"></div>
+        <script src="script.js" defer></script>
+    </body>
+</html>

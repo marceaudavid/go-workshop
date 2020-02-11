@@ -2,10 +2,12 @@
 
 ## Running
 
-go server.go
+```bash
+go install
+go run app.go
+```
 
-
-## debugging
+## Debugging
 
 Debugging Go code using VS Code
 Run the command Go: Install/Update Tools, select dlv, press Ok to install/update delve
