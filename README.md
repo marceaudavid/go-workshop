@@ -4,7 +4,7 @@
 
 ```bash
 go install
-go run app.go
+go run ./src/main.go
 ```
 
 ## Debugging
