@@ -125,15 +125,3 @@ func Save(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, json)
 	}
 }
-
-// func WebsocketTicket(w http.ResponseWriter, r *http.Request) {
-// 	if r.Method == "GET" {
-// 		cookie, err := r.Cookie("token")
-// 		if err != nil {
-// 			http.Error(w, "No valid token", http.StatusUnauthorized)
-// 			return
-// 		}
-// 		ticket := uuid.NewV4().String()
-
-// 	}
-// }
